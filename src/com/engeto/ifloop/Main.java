@@ -1,5 +1,9 @@
+package com.engeto.ifloop;
+
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
@@ -20,6 +24,8 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
+        List<Integer> list = new ArrayList<>();
 
         System.out.println("--- Task 4 - print all integers from list ---");
         printAllIntegersFromList(list);
